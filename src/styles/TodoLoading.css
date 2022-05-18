@@ -1,0 +1,77 @@
+:root {
+    --mint-cream: #F7FFF7;
+    --jet: #343434;
+    --purple: #5603AD;
+    --very-light-gray: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --yellow-green-wheel: #38A700;
+    --medium-sea-garden: #06BA63;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+
+.TodoLoading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    padding: 0px;
+
+    border-radius: 18px;
+}
+.TodoLoading li{
+    width: 100%;
+    border-radius: 18px;
+    height: 48px;
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    background: linear-gradient(90deg, var(--text-input-field), var(--very-light-gray));
+
+    background-size: 400% 400%;
+
+    animation: loadingAnimation 1s ease-in-out infinite;
+}
+
+.TodoLoading li .span1{
+    height: 12px;
+    width: 70%;
+    border-radius: 8px;
+    background: linear-gradient(90deg, var(--very-light-gray), var(--jet));
+
+    padding: 0px;
+    margin: 6px 0px 0px 6px ;
+
+    background-size: 400% 400%;
+
+    animation: loadingAnimation 1s ease-in-out infinite;
+}
+.TodoLoading li .span2{
+    height: 12px;
+    width: 30%;
+    border-radius: 8px;
+    background: linear-gradient(90deg, var(--very-light-gray), var(--jet));
+
+    padding: 0px;
+    margin: 0px 0px 6px 6px ;
+
+    background-size: 400% 400%;
+
+    animation: loadingAnimation 1s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

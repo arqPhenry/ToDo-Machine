@@ -1,0 +1,29 @@
+:root {
+    --mint-cream: #F7FFF7;
+    --jet: #343434;
+    --purple: #5603AD;
+    --very-light-gray: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --yellow-green-wheel: #38A700;
+    --medium-sea-garden: #06BA63;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+
+.ModalBackground{
+    background: rgba(32,35,41,.8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+

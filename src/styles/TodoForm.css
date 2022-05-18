@@ -1,0 +1,98 @@
+:root {
+    --mint-cream: #F7FFF7;
+    --jet: #343434;
+    --purple: #5603AD;
+    --very-light-gray: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --yellow-green-wheel: #38A700;
+    --medium-sea-garden: #06BA63;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+
+.TodoForm{
+    width: 290px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 24px;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 5px 25px var(--jet);
+
+    z-index: 1;
+}
+
+.TodoForm label{
+    font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+
+  color: var(--medium-sea-garden);
+}
+.TodoForm textarea{
+    padding: 8px;
+    border-radius: 12px;
+    background-color: var(--text-input-field);
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: var(--sm);
+
+    width: 250px;
+}
+
+.TodoForm .buttons{
+    margin-top: 6px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    gap: 6px;
+
+    
+}
+
+.TodoForm .addbutton{
+    padding: 6px;
+    width: 100%;
+    background-color: white;
+    font-size: 10px;
+    background-color: var(--medium-sea-garden);
+    color: var(--white);
+    border: 1px solid var(--medium-sea-garden);
+    
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+
+    height: 30px;
+}
+.TodoForm .addbutton:hover{
+    color: var(--medium-sea-garden);
+    border: 1px solid var(--medium-sea-garden);
+    background-color: var(--mint-cream);
+}
+.TodoForm .cancelbutton{
+    padding: 6px;
+    background-color: white;
+    font-size: 10px;
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 12px;
+
+    height: 30px;
+}
+.TodoForm .cancelbutton:hover{
+    background-color: var(--text-input-field);
+    color: var(--very-light-gray);
+    border: 1px solid var(--text-input-field);
+}

@@ -1,0 +1,36 @@
+:root {
+    --mint-cream: #F7FFF7;
+    --jet: #343434;
+    --purple: #5603AD;
+    --very-light-gray: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --yellow-green-wheel: #38A700;
+    --medium-sea-garden: #06BA63;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+
+.TodoList{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+}
+
+.TodoList span {
+    display: flex;
+    justify-content: center;
+
+    font-size: var(--md);
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 24px;
+
+    padding: 12px;
+
+    border-bottom: 1px solid var(--very-light-gray);
+    border-radius: 18px;
+}
