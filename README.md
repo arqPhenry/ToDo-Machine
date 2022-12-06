@@ -1,5 +1,5 @@
 # Task Manager, "ToDo Machine"
-###Open it: https://arqphenry.github.io/ToDo-Machine/
+### Open it: https://arqphenry.github.io/ToDo-Machine/
 ### Description: 
 App for to-do management. 
 Users can: 
